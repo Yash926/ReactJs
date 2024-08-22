@@ -15,5 +15,5 @@ class Model extends Car{
         console.log(this.present()+',it is a '+this.model)
     }
 }
-const myCar = new Model("Ford","Mustang");
+const myCar = new Model("Mahindra","ScorpioN");
 myCar.show();
