@@ -1,13 +1,13 @@
 //using jsx
 // import React, { Component } from 'react';
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Navigation from './navigation'
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import Navigation from './navigation'
 // ReactDOM.render(<h1>Lovely Professional University</h1>,document.getElementById("root"));
 
 
 // import ReactDOM from 'react-dom/client';
-import './index.css';
+// import './index.css';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
@@ -88,11 +88,34 @@ import './index.css';
 // root.render(myElement);
 
 
+// const root=ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+// <React.StrictMode>
+//   <Navigation title="LPU" type="Contact us"/>
+// </React.StrictMode>
+// )
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+import {Add,sub,Mul,Div} from './calculator';
+// import HelloWorld from './HelloWorld';
 const root=ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-<React.StrictMode>
-  <Navigation title="LPU" type="Contact us"/>
-</React.StrictMode>
-)
-
+  <React.StrictMode>
+    <App/>
+    {/* <HelloWorld/> */}
+    {
+      <>
+    <li>{Add(2,4)}</li>
+    <li>{sub(2,4)}</li>
+    <li>{Mul(2,4)}</li>
+    <li>{Div(2,4)}</li>
+      </>
+    }
+  </React.StrictMode>
+);
+reportWebVitals();
 
