@@ -99,13 +99,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navigation from './navigation';
+import Card from './card'
 
 import {Add,sub,Mul,Div} from './calculator';
 // import HelloWorld from './HelloWorld';
 const root=ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Navigation title="LPU" type="Contact us"/>
     <App/>
+    <Card children='Yash'/>
+    
     {/* <HelloWorld/> */}
     {
       <>
