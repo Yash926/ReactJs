@@ -97,18 +97,24 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navigation from './navigation';
 import Card from './card'
+import Table from './table_Activity';
 
 import {Add,sub,Mul,Div} from './calculator';
+import Hooks from './hooks';
+import Color from './color';
 // import HelloWorld from './HelloWorld';
 const root=ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navigation title="LPU" type="Contact us"/>
-    <App/>
+    {/* <App/> */}
+    <Table/>
+    <Hooks/>
+    <Color/>
     <Card children='Yash'/>
     
     {/* <HelloWorld/> */}
