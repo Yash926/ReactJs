@@ -104,8 +104,10 @@ import Card from './card'
 import Table from './table_Activity';
 
 import {Add,sub,Mul,Div} from './calculator';
-import Hooks from './hooks';
+// import Hooks from './hooks';
+import Useeffect from './hooks';
 import Color from './color';
+import ApiCall from './hooks';
 // import HelloWorld from './HelloWorld';
 const root=ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -113,7 +115,9 @@ root.render(
     <Navigation title="LPU" type="Contact us"/>
     {/* <App/> */}
     <Table/>
-    <Hooks/>
+    {/* <Hooks/> */}
+    {/* <Useeffect/> */}
+    <ApiCall/>
     <Color/>
     <Card children='Yash'/>
     
