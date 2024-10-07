@@ -96,41 +96,15 @@
 // )
 
 import React from 'react';
+import App from './App';
 import ReactDOM from 'react-dom';
-// import App from './App';
-import reportWebVitals from './reportWebVitals';
-import Navigation from './navigation';
-import Card from './card'
-import Table from './table_Activity';
 
-import {Add,sub,Mul,Div} from './calculator';
-// import Hooks from './hooks';
-import Useeffect from './hooks';
-import Color from './color';
-import ApiCall from './hooks';
-// import HelloWorld from './HelloWorld';
+
 const root=ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navigation title="LPU" type="Contact us"/>
-    {/* <App/> */}
-    <Table/>
-    {/* <Hooks/> */}
-    {/* <Useeffect/> */}
-    <ApiCall/>
-    <Color/>
-    <Card children='Yash'/>
-    
-    {/* <HelloWorld/> */}
-    {
-      <>
-    <li>{Add(2,4)}</li>
-    <li>{sub(2,4)}</li>
-    <li>{Mul(2,4)}</li>
-    <li>{Div(2,4)}</li>
-      </>
-    }
+   <App/>
   </React.StrictMode>
 );
-reportWebVitals();
+
 

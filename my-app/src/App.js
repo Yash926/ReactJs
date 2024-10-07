@@ -1,25 +1,23 @@
 // import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-  // return (
-  //   <div className="App">
-  //     <header className="App-header">
-  //       <img src={logo} className="App-logo" alt="logo" />
-  //       <p>
-  //         Edit <code>src/App.js</code> and save to reload.
-  //       </p>
-  //       <a
-  //         className="App-link"
-  //         href="https://reactjs.org"
-  //         target="_blank"
-  //         rel="noopener noreferrer"
-  //       >
-  //         Learn React
-  //       </a>
-  //     </header>
-  //   </div>
-  // );
+import './App.css';
+// import { Div } from './calculator';
+// import home from './home';
+import React from 'react';
+// import Counter from './useref';
+// import Stopwatch from './useref';
+// import Refheight from './useref';
+import FocusInput from './useref';
+function App() {
+  return (
+    <div>
+      {/* <home/> */}
+      {/* <Counter/> */}
+    {/* <Stopwatch/> */}
+    {/* <Refheight/> */}
+    <FocusInput/>
+     </div>
+  );
+  
   //Two tags cannot  be used without div
 //   var name='across india';
 //   return(
@@ -81,21 +79,7 @@
 //       </div>
 //     )
 //   }
-// }
+}
 
-// App.propTypes={
-//   propArray:PropTypes.array.isRequired,
-//   propBool:PropTypes.bool.isRequired,
-//   propFunc:PropTypes.func,
-//   propNumber:PropTypes.number,
-//   propString:PropTypes.string,
-// }
-// App.defaultProps={
-//   propArray:[1,2,3,4,5],
-//   propBool:true,
-//   propFunc:function(x){return x+5},
-//   propNumber: 1,
-//   propString:"LPU",
-// }
-// export default App;
+export default App;
 
