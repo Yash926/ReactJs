@@ -7,6 +7,8 @@ import React from 'react';
 // import Stopwatch from './useref';
 // import Refheight from './useref';
 import FocusInput from './useref';
+import Counter from './usereducer';
+import TodoApp from './todo_useReducer';
 function App() {
   return (
     <div>
@@ -15,6 +17,8 @@ function App() {
     {/* <Stopwatch/> */}
     {/* <Refheight/> */}
     <FocusInput/>
+    <Counter/>
+    <TodoApp/>
      </div>
   );
   

@@ -96,7 +96,7 @@
 // )
 
 import React from 'react';
-import App from './App';
+import App from './reactEvents';
 import ReactDOM from 'react-dom';
 
 
