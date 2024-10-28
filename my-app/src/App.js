@@ -15,7 +15,8 @@ import React from 'react';
 // import FetchDataComponent from './fetch_get';
 // import PostDataComponent from './fetch_post';
 // import UserDetailsFetcher from './Activity10';
-import DeleteDataComponent from './fetch_delete';
+// import DeleteDataComponent from './fetch_delete';
+import Axios from './axios';
 
 
 
@@ -32,7 +33,8 @@ function App() {
     {/* <FetchDataComponent/> */}
     {/* <PostDataComponent/> */}
     {/* <UserDetailsFetcher/> */}
-    <DeleteDataComponent/>
+    {/* <DeleteDataComponent/> */}
+    <Axios/>
     {/* <FocusInput/> */}
     {/* <Counter/> */}
     {/* <TodoApp/> */}
