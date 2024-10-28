@@ -1,0 +1,123 @@
+.container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, black, black, #e9d5ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-container {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 20rem;
+  }
+  
+  .tab-buttons {
+    display: flex;
+    margin-bottom: 1.5rem;
+  }
+  
+  .tab-button {
+    flex: 1;
+    padding: 0.5rem 0;
+    border: none;
+    background: none;
+    color: #4b5563;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .tab-button.active {
+    background-color: #2563eb;
+    color: white;
+    border-radius: 0.25rem;
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .form-group {
+    width: 100%;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.25rem;
+    outline: none;
+    transition: border-color 0.2s ease;
+  }
+  
+  .form-input:focus {
+    border-color: #2563eb;
+  }
+  
+  .forgot-password {
+    text-align: right;
+  }
+  
+  .forgot-password a {
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 0.875rem;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .switch-form-text {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #4b5563;
+  }
+  
+  .switch-form-link {
+    background: none;
+    border: none;
+    color: #2563eb;
+    cursor: pointer;
+    margin-left: 0.25rem;
+  }
+  
+  .switch-form-link:hover {
+    text-decoration: underline;
+  }
+  
+
+  .form-container {
+    animation: fadeIn 0.3s ease;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

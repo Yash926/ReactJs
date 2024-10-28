@@ -6,9 +6,19 @@ import React from 'react';
 // import Counter from './useref';
 // import Stopwatch from './useref';
 // import Refheight from './useref';
-import FocusInput from './useref';
-import Counter from './usereducer';
-import TodoApp from './todo_useReducer';
+// import FocusInput from './useref';
+// import Counter from './usereducer';
+// import TodoApp from './todo_useReducer';
+// import { CalculateFactorial } from './useCallBack';
+// import Addform from './addForm';
+// import AuthForms from './Activity9';
+// import FetchDataComponent from './fetch_get';
+// import PostDataComponent from './fetch_post';
+// import UserDetailsFetcher from './Activity10';
+import DeleteDataComponent from './fetch_delete';
+
+
+
 function App() {
   return (
     <div>
@@ -16,9 +26,16 @@ function App() {
       {/* <Counter/> */}
     {/* <Stopwatch/> */}
     {/* <Refheight/> */}
-    <FocusInput/>
-    <Counter/>
-    <TodoApp/>
+    {/* <CalculateFactorial/> */}
+    {/* <Addform/> */}
+    {/* <AuthForms/> */}
+    {/* <FetchDataComponent/> */}
+    {/* <PostDataComponent/> */}
+    {/* <UserDetailsFetcher/> */}
+    <DeleteDataComponent/>
+    {/* <FocusInput/> */}
+    {/* <Counter/> */}
+    {/* <TodoApp/> */}
      </div>
   );
   
